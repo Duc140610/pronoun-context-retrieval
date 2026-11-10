@@ -1,7 +1,15 @@
 .venv/
 __pycache__/
-data/
-results/
-*.pt
-*.bin
-.ipynb_checkpoints/
+*.pyc
+
+# Dữ liệu lớn hoặc cache
+data/raw/
+cache/
+*.tmp
+*.log
+
+# Bỏ qua file dữ liệu thô gốc tải về (nếu có để ở gốc)
+*.ids
+*.tmx
+*.tmx.gz
+*.zip
